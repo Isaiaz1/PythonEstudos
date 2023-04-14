@@ -1,0 +1,187 @@
+input(" pressione F para fritar \n")
+#print("frito")
+
+#Q2
+#-	Abrir dicionário
+#-	Pensar na palavra
+#-	Ir passando pelas paginas procurando a  1 letra na parte de cima
+#-	Continuar olhando para segunda ou terceira letra
+#-	Parar na pagina e procurar a palavra semelhante
+
+#Q3
+
+#comentario
+#troque em ord a letra z pela desejada 
+#exemplo ord 'j'
+#comentario
+
+#alfabeto =[]
+#for i in range(ord('a'), ord('z')+1):
+ #   alfabeto.append(chr(i))
+
+#print (alfabeto)
+
+#Q4
+
+#a = int (input("1 numero "))
+#b = int (input("2 numero "))
+#sub = a-b
+#adi = a+b
+#multi = a*b
+#print(multi)
+
+#Q5
+
+
+#Cnum = int (input("1 numero: \n"))
+#e =int (input(" exponenciação: \n"))
+#expo = Cnum * e
+#print(expo)
+
+#Q6
+#D = Cnum /e 
+#print(D)
+
+#Q7
+
+
+#Q8
+#duasmaispalavras=1
+#var123 = 1
+#campominado =1
+#vardiferente =1
+#Numero = 1
+
+
+#Q9
+#Lado = int (input("insira tamanho do lado \n"))
+#quadra = Lado*Lado 
+#print(quadra)
+
+
+
+
+#Q10
+#Hora = int (input("Hora: \n"))
+#minuto = int (input("minuto: \n"))
+#segundo = int (input("segundo: \n"))
+#numerodesegundos = Hora * 3600 + minuto * 60 + segundo
+#print("o  número de segundos é de %10d segundos" %  numerodesegundos )
+
+#Q11
+#Q14bilhoes = 441806400000000000 
+#print( Q14bilhoes ," de Segundos")
+
+#Q12
+#googol = 10**100
+#print(googol)
+
+#Q13
+#googol = 10**100
+#googol2 = 10**googol 
+#print(googol2)
+
+#programa trava
+
+#Q14
+#Papexp= 0.1 **107
+#print(Papexp)
+
+#Q15
+# .............
+
+#Q16
+#pi= 3.14159265358979323846**googol
+#print(pi)
+
+#Q17
+#..............
+
+#Q18
+
+#raio = 5
+#pi = 3.14
+#a= (4 * raio^3)* pi /3
+#a = (4 * raio**3)* pi /3
+#print( 
+ # f"a area da esfera é de {a:.1f}")
+
+
+
+
+
+###Cap 1###
+
+#1
+#cont = 0
+#while (cont < 10):
+ #  print("Não vou mais atrapalhar a aula")
+  # cont   = cont + 1
+  
+#2
+#altura = int (input("altura: \n"))
+#largura = int (input("largura: \n"))
+#profundidade = int (input("profundidade: \n"))
+#m= 1
+#volume = altura * largura * profundidade + m**3
+
+#print(volume)
+
+#3
+#altura = float (input("altura: \n"))
+#largura = float (input("largura: \n"))
+#profundidade = float (input("profundidade: \n"))
+#m= 1
+#volume = altura * largura * profundidade + m**3
+
+#print(volume)
+
+#4
+#....
+
+#CAP 2  
+
+#1
+#seq = []
+
+
+
+#cont = 0
+#while (cont < 5):
+ # n = int(input("digite o numero: "))    
+  #seq.append(n)
+  #cont   = cont + 1
+#for j in seq[::-1]:
+ #   print (j)
+
+
+#2
+  
+#comprimento = int (input("comprimento: \n"))
+#largura = int (input("largura: \n"))
+#arestatam = int (input("aresta tamanho: \n"))
+#preçom = 10
+#valor1 = comprimento*largura
+#preçom = valor1 * arestatam
+#print("preço final: \n")
+#print(preçom)
+
+
+
+#3
+
+
+
+cotacao = float (input(" cotação do dólar do dia: \n"))
+quantidade = float (input("quantidade de reais: \n"))
+
+valor_convertido = quantidade / cotacao
+
+print( " %.2f" % valor_convertido)
+
+
+
+
+
+
+
